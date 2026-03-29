@@ -1,138 +1,138 @@
-🚀 SkillSync
-AI-Powered Career Readiness & Skill Gap Analysis Platform
+🚀 SkillSync<br>
+AI-Powered Career Readiness & Skill Gap Analysis Platform<br>
 
-📌 Overview
-SkillSync is a full-stack web application that helps students evaluate their job readiness, identify skill gaps, and follow a personalized AI-generated roadmap to improve their skills.
+📌 Overview<br>
+SkillSync is a full-stack web application that helps students evaluate their job readiness, identify skill gaps, and follow a personalized AI-generated roadmap to improve their skills.<br>
 
-It transforms unstructured learning into measurable career growth.
+It transforms unstructured learning into measurable career growth.<br>
 
-🎯 Features
-🔐 User Authentication (Register/Login)
-👤 Student Profile Setup (Job Role Selection)
-📊 Skill Gap Analysis (Matched vs Missing Skills)
-📈 Real-Time Readiness Score
-🤖 AI-Powered Roadmap Generation
-✅ Dynamic Progress Tracking
-📄 Downloadable PDF Report
-📉 Visual Charts (Skill Gap Pie Chart)
+🎯 Features<br>
+🔐 User Authentication (Register/Login)<br>
+👤 Student Profile Setup (Job Role Selection)<br>
+📊 Skill Gap Analysis (Matched vs Missing Skills)<br>
+📈 Real-Time Readiness Score<br>
+🤖 AI-Powered Roadmap Generation<br>
+✅ Dynamic Progress Tracking<br>
+📄 Downloadable PDF Report<br>
+📉 Visual Charts (Skill Gap Pie Chart)<br>
 
-🧠 How It Works
-User registers and logs in
-Selects job role and current skills
-System compares with required skills
-Generates:
-Matched Skills
-Missing Skills
-Readiness Score
-AI generates a structured roadmap
-User completes skills → progress updates dynamically
+🧠 How It Works<br>
+User registers and logs in<br>
+Selects job role and current skills<br>
+System compares with required skills<br>
+Generates:<br>
+Matched Skills<br>
+Missing Skills<br>
+Readiness Score<br>
+AI generates a structured roadmap<br>
+User completes skills → progress updates dynamically<br>
 
-🏗️ Tech Stack
-Frontend
-React.js
-React Router
-Chart.js
-CSS
+🏗️ Tech Stack<br>
+Frontend<br>
+React.js<br>
+React Router<br>
+Chart.js<br>
+CSS<br>
 
-Backend
-Node.js
-Express.js
-REST APIs
+Backend<br>
+Node.js<br>
+Express.js<br>
+REST APIs<br>
 
-Database
-MySQL (XAMPP)
-
-
-AI Integration
-Gemini API (for roadmap generation)
-
-🗂️ Project Structure
-skillsync/
-│
-├── backend/
-│   ├── db.js
-│   ├── server.js
-│   ├── routes/
-│
-├── src/
-│   ├── pages/
-│   ├── components/
-│   ├── assets/
-│
-├── public/
-└── package.json
-
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/skillsync.git
-cd skillsync
-2️⃣ Setup Backend
-cd backend
-npm install
-Create .env file:
-
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=
-DB_NAME=skillsync
-Run backend:
-
-node server.js
-3️⃣ Setup Frontend
-cd ..
-npm install
-npm run dev
-4️⃣ Setup Database
-Open phpMyAdmin
-
-Create database: skillsync
-
-Import SQL file (if available) OR create tables manually
+Database<br>
+MySQL (XAMPP)<br>
 
 
-🗃️ Database Tables
-users
-student_info
-student_skills
-jobrole_skills
+AI Integration<br>
+Gemini API (for roadmap generation)<br>
 
-📊 Architecture
-SkillSync follows a 3-Tier Architecture:
+🗂️ Project Structure<br>
+skillsync/<br>
+│<br>
+├── backend/<br>
+│   ├── db.js<br>
+│   ├── server.js<br>
+│   ├── routes/<br>
+│<br>
+├── src/<br>
+│   ├── pages/<br>
+│   ├── components/<br>
+│   ├── assets/<br>
+│<br>
+├── public/<br>
+└── package.json<br>
 
-Frontend (React)
-       ↓
-Backend (Node.js + Express)
-       ↓
-Database (MySQL)
+⚙️ Installation & Setup<br>
+1️⃣ Clone the Repository<br>
+git clone https://github.com/your-username/skillsync.git<br>
+cd skillsync<br>
+2️⃣ Setup Backend<br>
+cd backend<br>
+npm install<br>
+Create .env file:<br>
 
-🚀 Future Enhancements
-Resume Analyzer
-AI Mock Interview System
-Company-Specific Skill Benchmarking
-JWT Authentication
-Admin Dashboard
-Cloud Deployment
+DB_HOST=localhost<br>
+DB_USER=root<br>
+DB_PASSWORD=<br>
+DB_NAME=skillsync<br>
+Run backend:<br>
 
-🏆 Key Highlights
-AI-driven personalized learning
-Real-time progress tracking
-Cross-device scalability (when using backend storage)
-Clean and interactive UI
+node server.js<br>
+3️⃣ Setup Frontend<br>
+cd ..<br>
+npm install<br>
+npm run dev<br>
+4️⃣ Setup Database<br>
+Open phpMyAdmin<br>
 
-📌 Conclusion
-SkillSync bridges the gap between learning and employability by providing:
+Create database: skillsync<br>
 
-✔ Clear skill analysis
-✔ Structured roadmap
-✔ Measurable readiness
+Import SQL file (if available) OR create tables manually<br>
 
-“SkillSync doesn’t just measure skills — it builds career readiness.”
 
-Demo Link: https://drive.google.com/file/d/1kvijQ5ODDkVGHu0GnmkpOWJHcID-DyyX/view
+🗃️ Database Tables<br>
+users<br>
+student_info<br>
+student_skills<br>
+jobrole_skills<br>
 
-👨‍💻 Authors
-Mrunal Joshi
-Team Member: Shivangi Sinha
+📊 Architecture<br>
+SkillSync follows a 3-Tier Architecture:<br>
 
-📄 License
-This project is for academic and demonstration purposes.
+Frontend (React)<br>
+       ↓<br>
+Backend (Node.js + Express)<br>
+       ↓<br>
+Database (MySQL)<br>
+
+🚀 Future Enhancements<br>
+Resume Analyzer<br>
+AI Mock Interview System<br>
+Company-Specific Skill Benchmarking<br>
+JWT Authentication<br>
+Admin Dashboard<br>
+Cloud Deployment<br>
+
+🏆 Key Highlights<br>
+AI-driven personalized learning<br>
+Real-time progress tracking<br>
+Cross-device scalability (when using backend storage)<br>
+Clean and interactive UI<br>
+
+📌 Conclusion<br>
+SkillSync bridges the gap between learning and employability by providing:<br>
+
+✔ Clear skill analysis<br>
+✔ Structured roadmap<br>
+✔ Measurable readiness<br>
+
+“SkillSync doesn’t just measure skills — it builds career readiness.”<br>
+
+Demo Link: https://drive.google.com/file/d/1kvijQ5ODDkVGHu0GnmkpOWJHcID-DyyX/view<br>
+
+👨‍💻 Authors<br>
+Mrunal Joshi<br>
+Shivangi Sinha<br>
+
+📄 License<br>
+This project is for academic and demonstration purposes.<br>
