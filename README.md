@@ -1,16 +1,163 @@
-# React + Vite
+🚀 SkillSync
+AI-Powered Career Readiness & Skill Gap Analysis Platform
+📌 Overview
+SkillSync is a full-stack web application that helps students evaluate their job readiness, identify skill gaps, and follow a personalized AI-generated roadmap to improve their skills.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It transforms unstructured learning into measurable career growth.
 
-Currently, two official plugins are available:
+🎯 Features
+🔐 User Authentication (Register/Login)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👤 Student Profile Setup (Job Role Selection)
 
-## React Compiler
+📊 Skill Gap Analysis (Matched vs Missing Skills)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📈 Real-Time Readiness Score
 
-## Expanding the ESLint configuration
+🤖 AI-Powered Roadmap Generation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Dynamic Progress Tracking
+
+📄 Downloadable PDF Report
+
+📉 Visual Charts (Skill Gap Pie Chart)
+
+🧠 How It Works
+User registers and logs in
+
+Selects job role and current skills
+
+System compares with required skills
+
+Generates:
+
+Matched Skills
+
+Missing Skills
+
+Readiness Score
+
+AI generates a structured roadmap
+
+User completes skills → progress updates dynamically
+
+🏗️ Tech Stack
+Frontend
+React.js
+
+React Router
+
+Chart.js
+
+CSS
+
+Backend
+Node.js
+
+Express.js
+
+REST APIs
+
+Database
+MySQL (XAMPP)
+
+AI Integration
+Gemini API / OpenAI (for roadmap generation)
+
+🗂️ Project Structure
+skillsync/
+│
+├── backend/
+│   ├── db.js
+│   ├── server.js
+│   ├── routes/
+│
+├── src/
+│   ├── pages/
+│   ├── components/
+│   ├── assets/
+│
+├── public/
+└── package.json
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/skillsync.git
+cd skillsync
+2️⃣ Setup Backend
+cd backend
+npm install
+Create .env file:
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=skillsync
+Run backend:
+
+node server.js
+3️⃣ Setup Frontend
+cd ..
+npm install
+npm run dev
+4️⃣ Setup Database
+Open phpMyAdmin
+
+Create database: skillsync
+
+Import SQL file (if available) OR create tables manually
+
+🗃️ Database Tables
+users
+
+student_info
+
+student_skills
+
+jobrole_skills
+
+📊 Architecture
+SkillSync follows a 3-Tier Architecture:
+
+Frontend (React)
+       ↓
+Backend (Node.js + Express)
+       ↓
+Database (MySQL)
+🚀 Future Enhancements
+Resume Analyzer
+
+AI Mock Interview System
+
+Company-Specific Skill Benchmarking
+
+JWT Authentication
+
+Admin Dashboard
+
+Cloud Deployment
+
+🏆 Key Highlights
+AI-driven personalized learning
+
+Real-time progress tracking
+
+Cross-device scalability (when using backend storage)
+
+Clean and interactive UI
+
+📌 Conclusion
+SkillSync bridges the gap between learning and employability by providing:
+
+✔ Clear skill analysis
+✔ Structured roadmap
+✔ Measurable readiness
+
+“SkillSync doesn’t just measure skills — it builds career readiness.”
+
+👨‍💻 Authors
+Mrunal Joshi
+
+Shivangi Sinha
+
+📄 License
+This project is for academic and demonstration purposes.
